@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>Student Management System</h1>
+
+        <p class="subtitle">
+            C++ Internship — Task 4
+        </p>
+
+        <div class="form">
+
+            <input
+                type="number"
+                id="studentId"
+                placeholder="Student ID"
+            >
+
+            <input
+                type="text"
+                id="studentName"
+                placeholder="Student Name"
+            >
+
+            <input
+                type="number"
+                id="studentAge"
+                placeholder="Age"
+            >
+
+            <input
+                type="text"
+                id="studentDepartment"
+                placeholder="Department"
+            >
+
+            <button id="addButton">
+                Add Student
+            </button>
+
+        </div>
+
+        <input
+            type="number"
+            id="searchId"
+            placeholder="Enter Student ID to Search"
+        >
+
+        <button id="searchButton">
+            Search Student
+        </button>
+
+        <div id="searchResult"></div>
+
+        <h2>Student List</h2>
+
+        <div id="studentList"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
